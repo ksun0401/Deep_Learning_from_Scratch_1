@@ -39,7 +39,6 @@ def gradient_descent(f, init_x, lr, step_num):
         x -= lr * grad    # 기울기에 학습률을 곱한 값으로 초기값 갱신
     return x, np.array(x_history)
 
-
 def function_2(x):
     return x[0]**2 + x[1]**2
 
